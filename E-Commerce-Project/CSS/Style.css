@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    background: #100c08;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 18px;
+}
+    #logo,#logo1{
+    height: 48px;
+    width: 100%;    
+}
+.preheader {
+    /*background-image: linear-gradient( 0deg, rgba(96,221,142,1) 11.2%, rgba(24,138,141,1) 100% );*/
+    background-image: radial-gradient( circle farthest-corner at 10% 20%, rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+}
+.socialMI i{
+    color: #101010;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.textPH{
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.greeting{
+    display: inline;
+}
+.mHeader {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+    background: #fff;
+    min-height: 80px;
+    box-shadow: 0px 5px 5px rgb(33 33 33 / 23%);
+   
+}
+.card-title{
+    color:#7cc650;
+    text-align: center;
+}
+.card {
+    border-color: #7cc650;
+   
+    animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    animation-delay:3s;
+}
+.prBtn button{
+    margin-left: 35%;
+}
+.img-container{
+    width: 50%;
+}
+.dwnld{
+    margin: 25px 100px;
+}
+.title{
+    font-size: 5rem;
+    font-weight: bold;
+}
+.subtitle{
+    color: #7cc650;
+}
+.fContent{
+    color:#fff;
+    background-color: #101010;
+    text-align: center;
+}
+.connect{
+    background-color: #101010;
+    color:#fff;
+}
+.connect a{
+    text-decoration: none;
+    color:#fff;
+}
+.cHeading{
+    font-weight:bolder;
+}
+#footImg{
+    width:60%;
+}
+.socialMI{
+    margin: 3px;
+}
+.slide img{
+    width:100%;
+    max-width:100%;
+    max-height:500px;
+}
+.owl-carousel .item {
+    height: 10rem;
+    background: #f04124;
+    display: flex;
+    justify-content: center;
+    align-items: center; font-size:70px; color:#fff;
+}
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+}
+
+    .social-link:hover,
+    .social-link:focus {
+        background: #ddd;
+        text-decoration: none;
+        color: #555;
+    }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+.pateners h2 {
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+/* Slider */
+.slick-slide {
+    margin: 0px 10px;
+}
+
+    .slick-slide img {
+        width: 100%;
+        
+    }
+.card:hover {
+    background-color: blue;
+    opacity: 0.9;
+    transform: scale(1.1);
+    animation: animate__swing;
+
+}
+.card img:hover {
+    
+    
+    
+}
